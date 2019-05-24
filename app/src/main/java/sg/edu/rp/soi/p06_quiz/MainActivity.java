@@ -50,9 +50,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         if (item.getItemId() == 0) {
-            tv2.setText(Integer.parseInt(et1.getText().toString()) + Integer.parseInt(et2.getText().toString()));
+            tv2.setText(Integer.parseInt(et1.getText().toString()) + Integer.parseInt(et2.getText().toString()) + "");
         } else {
-            tv2.setText(Integer.parseInt(et1.getText().toString()) - Integer.parseInt(et2.getText().toString()));
+            tv2.setText(Integer.parseInt(et1.getText().toString()) - Integer.parseInt(et2.getText().toString()) + "");
         }
         return true;
 
