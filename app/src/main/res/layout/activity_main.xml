@@ -21,7 +21,14 @@
         android:id="@+id/tvOperation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="OwOperation"/>
+        android:textAlignment="center"
+        android:text="Operation"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here Shows the Result" />
 
     <Button
         android:id="@+id/btnReset"
